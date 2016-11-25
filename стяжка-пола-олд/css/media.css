@@ -1,0 +1,566 @@
+﻿	.review_left_side {
+		float: left;
+		width: 50%;
+	}
+    
+.review_left_side img {
+	float: left;
+    width: 50%;
+    padding: 15px 15px 0 0;
+    border-radius: 0 0 30px 0;
+}
+
+.reviews{
+	overflow: auto;
+}
+.review_right_side{
+	width: 50%;
+	float: left;
+}
+.review_right_side video{
+	margin: 15px 0 0 0;
+    background: #000;
+}
+.review_right_side img {
+    float: left;
+    padding: 10px;
+    width: 88%;
+    padding-left: 13px;
+    margin-left: 20px
+}
+.review_right_side span {
+	    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 700;
+}
+.title1 .riginf{
+    width: 200px !important;
+}
+.grab{
+	background: url(../img/036.jpg) no-repeat top center;
+	position: relative;
+}
+.header-logo.sticky{
+	margin-left: 20px;
+}
+.header-contacts.sticky{
+	margin-right: 60px;
+}
+// .header{
+// 	position: relative;
+// }
+// .nav{
+// 	position: absolute !important;
+// 	right: 0;
+// 	bottom: 0;
+// }
+.toggle.nav--fixed{
+	position: fixed !important;
+	right: 10px !important;
+	top: 17px;
+}
+.line{
+	position: absolute;
+    left: calc(67% - 98px);
+    top: 0;
+}
+.grab-title {
+    padding-top: 65px;
+    position: relative;
+    z-index: 1;
+    width: 70%;
+}
+.left_side_grab
+{
+    float: left;
+    background-color: rgba(1, 4, 64, 0.80);
+    width: calc(67% - 98px);
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.back01{
+	background: none;
+	height: auto;
+}
+.wrapper{
+	overflow: auto;
+}
+.advantages-table th:nth-child(1) {
+	width: 30%;
+}
+.advantages-table th:nth-child(2) {
+	width: 40%;
+}
+.advantages-table th:nth-child(3) {
+	width: 30%;
+}
+.advantages-table {
+	min-width: 450px;
+}
+
+
+@media screen and (max-width: 1080px) {
+	.review_wrap {
+	    padding: 0 15px 15px 15px;
+	}
+	.reviews .title{
+		padding-left: 15px;
+	}
+	.nav-block.nav--fixed{
+		max-width: 100%;
+		min-width: 100%;
+	}
+	.title .leftinf {
+	    float: left;
+	    margin-left: 25px;
+	}
+
+
+	.days-item:before {
+		display: none;
+	}
+	.days-item-num {
+	    margin: 0 auto;
+	}
+	.day2 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.day1 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.day3 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.consult-left {
+	    padding-right: 20px;
+	    padding-bottom: 20px;
+	}
+	.consult {
+	    padding: 20px;
+	}
+	.cnt, .backfon1 {
+	    width: 100% !important;
+	}
+	.riginf {
+		font-size: 19px !important;
+		width: auto!important;
+		float: left;
+		margin-bottom: 30px;
+	}
+	body {
+		min-width: 100%;
+	}
+	.grab-title {
+		padding-left: 20px;
+		font-size: 20px;
+	}
+	.header-top {
+		width: 95%;
+		margin: 0 auto;
+	}
+	.order-title {
+		padding: 0 20px ;
+	}
+	.cnt {
+		margin: auto;
+	}
+	.backfon1 {
+	    margin: auto;
+	}
+	.backfon1111 {
+	    width: 100%;
+	}
+	.header {
+		min-width: 100%;
+		min-height: 90px;
+		overflow: auto;
+	}
+	.l-sitelogo {
+		width: 50%;
+		text-align: center;
+		height: 90px;
+		float: left;
+	}
+	#top .nav .toggle {
+		display: block !important;
+		width: 30px;
+	    position: absolute;
+	    right: 0;
+	}
+	.nav-block {
+		display: none ;
+	}
+	.nav-block a  {
+		width: 100% !important;
+		display: block;
+	}
+	.nav-block a:hover {
+		border-bottom: none;
+	    background-color: rgba(70, 49, 12, 0.18);
+	    font-weight: normal;
+	}
+	.nav a.active, .nav a:hover {
+	 	border-bottom: none;
+	 }
+	.menu span{
+		display: none;
+	}
+	.menu {
+		height: auto;
+		background-color: #ffa300;
+		z-index: 10;
+		width: 100%;
+		overflow: auto;
+	}
+	.nav {
+	    height: auto !important;    
+	    width: 100%;
+		position: relative;
+	}
+	.order.section form{
+		padding: 0 20px 0;
+	}
+	.order.section form .clear{
+		clear: both;
+	}
+	.order .input {
+		width: calc((100% - 40px) / 3) !important;
+	    margin: 0 20px 20px 0;
+	    float: left;
+	}
+	.btn {
+		width: calc((100% - 40px) / 3) !important;
+		margin-bottom: 20px;
+	    float: left;
+	    font-size:14px;
+	}
+	.btn_2 {
+		width: 310px !important;
+	}
+	.arguments-item {
+		width: calc(50% - 35px);
+		margin-left: 30px;
+	}
+	.consult {
+		height: auto;
+	}
+	.consult-right {
+		float: none;
+	}
+	.steps-item {
+	    float: left; 
+	    height: 335px;
+	    padding: 0 20px;
+	    width: calc(50% - 20px);
+	}
+	.nums-item span {
+	    display: inline-block;
+	    color: #FFF;
+	    font-family: "Intro";
+	    font-size: 24px;
+	    font-weight: 400;
+	    line-height: 34px;
+	    vertical-align: middle;
+	}
+	.nums-item b {
+	    display: inline-block;
+	    color: #ffa300;
+	    font-family: "Intro";
+	    font-size: 58px;
+	    font-weight: 400;
+	    line-height: 0.7;
+	    vertical-align: middle;
+	    margin-right: 10px;
+	}
+	.steps-item-img img, .steps-item-title,.steps-item-text, .steps-item-num {
+	    max-width: 300px;
+	    margin: 0 auto;
+	}
+	.gains-left {
+	    float: left;
+	    margin-top: 300px;
+	    width: 100%;
+	    text-align: center;
+	}
+	.gains-right {
+	    margin-top: 19px;
+	    width: 100%;
+	    padding: 40px;
+	}
+	.gains .cnt::before {left: calc(50% - 164px);}
+	.gains{
+		overflow: hidden;
+	}
+
+}
+@media screen and (max-width: 768px) {
+    .popup{
+        width: 290px;
+    }
+    .popup .input{
+        width: 100%;
+    }
+    .popup-title{
+        padding: 0 15px;
+    }
+    .popup-content{
+        max-width: 100%;
+    }
+	.arguments {
+		padding-top: 0px;
+	}
+	.review_wrap{
+		padding: 0 0 15px 15px;
+	}
+	.review_left_side {
+		width: 100%;
+	}
+	.review_right_side{
+		width: 100%;
+    	padding: 0 15px 0 0;
+	}
+	.consult-title {
+		line-height: 25px;
+		padding-left: 70px;
+	}
+	.days .title {
+		margin-bottom: 0px;
+	}
+	.order .input {
+		width: 100%  !important;
+		margin: 0 20px 20px 0;
+		float: left;
+	}
+	.consult-left {
+		padding-bottom: 20px;
+	}
+	.btn {
+		width: 100%  !important;
+		margin-bottom: 20px;
+		float: left;
+	}
+	.title {
+		width: auto;
+	} 
+	.l-sitelogo {
+		width: 200px;
+	}
+	.header-logo {
+		float: none;
+		margin-right: 0px;
+		width: 100%;
+		height: auto;
+	}
+	.header-description {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.header-contacts {
+		margin-top: 20px;
+	}
+	.contacts {
+		height: 1200px;
+	}
+	.shadow {
+		position: absolute;
+		width: 100%;
+		left: 0;
+		top: 0;
+		bottom: 0;
+		background: rgba(0,2,63,0.9);
+		height: 700px;
+	}
+	.contacts-cnt {
+		padding: 20px;
+	}
+	.days-item-num {
+		margin: 0 auto;
+	}
+	.day1 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.day2 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.day3 {
+		width: 100%;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.days-item:before {
+		display: none;
+	}
+	.title .leftinf {
+
+		float: left;
+	    margin-left: 25px;
+	}
+	.title {
+	    width: auto;
+    }
+    .gains .cnt:before {
+	    content: '';
+	    position: absolute;
+	    height: 306px;
+	    background: url(../img/bg-gains.png) no-repeat;
+	    top: 20px;
+	    width: 100%;
+	}
+	.title .riginf {
+	    font-family: "Intro";
+	    margin-top: 12px;
+	}
+	.consult-input input {
+		width: 100%;
+	}
+	.consult-input {
+		padding: 0 20px;
+	}
+	.consult-button {
+		padding: 0 20px;
+	}
+	.steps-item{
+		width: calc(100% - 20px);
+		box-sizing: border-box;
+	}
+	.steps-item{
+		height:auto;
+		padding-bottom: 40px;
+	}
+	.gains-title{
+		padding: 0 20px;
+	}
+	.steps-item-img img, .steps-item-title,.steps-item-text, .steps-item-num {
+	    width: calc(100% - 40px);
+	    max-width: calc(100% - 40px);
+	    margin: 0 auto 10px;
+	}
+}
+.toggle {
+	display: none !important;   
+    width: 30px;
+    height: 30px;
+    clear: right;
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    line-height: 30px;
+    padding: 0 0 0 8px;
+    z-index: 30;
+    position: relative;
+    cursor: pointer;
+} 
+.toggle span{
+    color: #fff;
+}   
+.nav {
+    height: 35px;
+    background-color: #ffa300;
+}
+@media screen and (max-width: 480px) {
+     .table_cnt {
+     	 overflow-x: scroll; 
+	}
+	.l-sitelogo {
+	    width: 78px;
+	    overflow: hidden;
+    }
+	.btn-call {
+		font-size: 12px;
+	}
+    .header-logo {
+     	width: 314px;
+    }
+    .header-phone.sticky {
+     	font-size: 15px;
+    }
+    .header-logo.sticky {
+     	width: 240px;
+    }
+	.arguments-item {
+	    width: calc(100% - 35px);
+	    margin-left: 25px;
+	}
+	.steps-item {
+	    float: left;
+	    width: calc(100% - 60px);
+	    height: 335px;
+	    margin-left: 40px;
+	    height: auto;
+	}
+	.gains-right {
+	    width: auto;
+	    padding: 20px;
+	    float: right;
+	    margin-top: 19px;
+	}
+	.day1 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
+	.day2 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
+	.day3 {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 40px;
+	}
+	.days-item-num {
+		margin: 0 auto;
+	}
+	.nums-cnt {
+		padding-left: 35px;
+	}
+	.consult-left {
+		float: left;
+		margin-top: 10px;
+		padding: 15px;
+	}
+	.consult-title {
+		font-size: 15px;
+	}
+	.consult-right {
+		float: none;
+		padding: 20px;
+	}
+	.consult-right input {
+		width: 100%;
+	}
+	.footer {
+	    padding: 0 20px 0 20px;
+	}
+	.copyright {
+		 margin-right: 0;
+	}
+	.title {
+		width: auto;
+	} 
+	.contacts .textarea {
+		width: 100%;
+	}
+	.contacts input {
+		width: 100%;
+	}
+	.grab-title {
+    	font-size: 25px;
+        line-height: 45px;
+	}
+}

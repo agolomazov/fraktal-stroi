@@ -1,0 +1,12 @@
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.xn----7sba1bchwkfjher.xn--p1ai$ [NC]
+RewriteRule ^(.*)$ http://xn----7sba1bchwkfjher.xn--p1ai/$1 [R=301,L]
+
+RewriteEngine On
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/ 
+RewriteRule ^index\.php$ http://xn----7sba1bchwkfjher.xn--p1ai/ [R=301,L]
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ 
+RewriteRule ^index\.html$ http://xn----7sba1bchwkfjher.xn--p1ai/ [R=301,L]
+
+redirect 301 /%D0%B1%D0%BB%D0%BE%D0%B3/?p=1 http://xn----7sba1bchwkfjher.xn--p1ai/
